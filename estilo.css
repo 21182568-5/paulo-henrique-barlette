@@ -1,0 +1,67 @@
+
+/* Estilos CSS para a página */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #3096af;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+main {
+  margin: 20px;
+}
+h1 {
+  margin-bottom: 10px;
+}
+p {
+  margin-bottom: 20px;
+}
+footer {
+  background-color: #4b24d8;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+/* Estilos CSS para o menu de navegação */
+nav {
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #609ef0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #1b0e0e;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+button{
+    background-color: rgb(52, 197, 197);
+}
+li a:hover {
+  background-color: #ddd;
+}
+
+/* Estilos CSS para a foto de perfil */
+.profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
